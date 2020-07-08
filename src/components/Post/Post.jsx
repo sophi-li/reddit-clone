@@ -16,7 +16,7 @@ const Post = ({ subreddit }) => {
     setError(null)
     setRedditData([])
 
-    fetch(`http://www.reddit.com/r/${subreddit}.json`)
+    fetch(`https://www.reddit.com/r/${subreddit}.json`)
       .then((res) => res.json())
       .then((json) => setRedditData(json.data.children))
       .finally(setIsLoading(false))
