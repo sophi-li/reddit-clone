@@ -1,0 +1,91 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0.4rem 0.5rem 0.3rem 1rem;
+}
+
+.logo {
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.form {
+  flex: 2;
+}
+
+.searchInput {
+  background-color: #f6f7f8;
+  border: 1px solid #edf0f2;
+  border-radius: 6px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.searchInput:hover {
+  border: 1px solid #0073d7;
+}
+
+.loginBtn {
+  margin: 0 0.5rem 0 1rem;
+  padding: 0 0.3rem;
+  background-color: white;
+  color: #0073d7;
+  font-weight: bold;
+  border: 1px solid #0073d7;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.loginBtn:hover {
+  cursor: pointer;
+  color: #0d90de;
+  border: 1px solid #0d90de;
+}
+
+.signupBtn {
+  padding: 0 0.3rem;
+  color: white;
+  background-color: #0073d7;
+  font-weight: bold;
+  border: 1px solid #0073d7;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.signupBtn:hover {
+  background-color: #74bcec;
+  border: 1px solid #74bcec;
+  cursor: pointer;
+}
+
+/* Desktop Responsiveness */
+@media only screen and (min-width: 760px) {
+  .logo {
+    margin-right: 3rem;
+  }
+
+  .loginBtn {
+    flex: 0.3;
+  }
+
+  .signupBtn {
+    flex: 0.3;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .logo {
+    margin-right: 7rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 10rem;
+  }
+
+  .loginBtn {
+    margin-left: 3rem;
+  }
+}

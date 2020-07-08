@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.subreddit,
+.username,
+.time {
+  margin-right: 0.5rem;
+}
+
+.subreddit {
+  font-weight: bold;
+}
+
+.username,
+.time {
+  color: #85888a;
+  font-size: 0.95rem;
+}
+
+.joinBtn {
+  color: white;
+  background-color: #0073d7;
+  border: 1px solid #0073d7;
+  border-radius: 5px;
+  padding: 0.1rem 0.3rem;
+  margin-left: auto;
+  order: 2;
+  font-weight: bold;
+}
+
+.joinBtn:hover {
+  cursor: pointer;
+  background-color: #74bcec;
+  border: 1px solid #74bcec;
+}

@@ -1,0 +1,30 @@
+.postContainer {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postContainer:hover {
+  border: 1px solid #898989;
+}
+
+.url {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 620px) {
+  .postContainer {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .postContainer {
+    width: 60%;
+  }
+}

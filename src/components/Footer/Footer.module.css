@@ -1,0 +1,21 @@
+.footercontainer {
+  padding: 1.5rem 0 2rem 0;
+  text-align: center;
+}
+
+.clone,
+.sourcecode {
+  margin: 0.1rem;
+  font-size: 0.9rem;
+}
+
+.sourcecodeLink {
+  color: #878a8c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sourcecodeLink:hover {
+  color: #0073d7;
+  text-decoration: underline;
+}

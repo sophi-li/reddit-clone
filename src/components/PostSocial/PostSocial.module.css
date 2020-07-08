@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  color: #878a8c;
+  font-weight: bold;
+}
+
+.upvoteContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0.5rem;
+}
+
+.upBtn,
+.downBtn {
+  width: 21px;
+  padding: 0.1rem 0.2rem;
+  border-radius: 6px;
+}
+
+.upBtn:hover {
+  background-color: #ffc1c1;
+  cursor: pointer;
+}
+
+.downBtn:hover {
+  background-color: #d1d7ff;
+  cursor: pointer;
+}
+
+.upvotes {
+  padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+  color: #222;
+}
+
+.comments,
+.share,
+.save {
+  margin-right: 0.5rem;
+  padding: 0.1rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+
+.comments:hover,
+.share:hover,
+.save:hover {
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
