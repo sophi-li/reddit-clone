@@ -6,14 +6,16 @@
   </a>
 </p>
 
-> Reddit Clone that pull data from the [Reddit API](https://www.reddit.com/wiki/api#wiki_reddit_api_access).
+> Reddit Clone that pulls and displays data from the [Reddit API](https://www.reddit.com/wiki/api#wiki_reddit_api_access).
+
+Live site: https://clone-of-reddit.netlify.app/
 
 ## Install
 
 1. Clone repository to your local machine
 
 ```sh
-git clone https://github.com/sophi-li/conversion-clone.git
+git clone https://github.com/sophi-li/reddit-clone.git
 ```
 
 2. Navigate into the repository
