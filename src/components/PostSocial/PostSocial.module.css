@@ -13,12 +13,14 @@
 
 .upvotes {
   color: #222;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
 }
 
 .upBtn,
 .downBtn {
   height: 21px;
   border-radius: 6px;
+  padding: 0.2rem 0.1rem;
 }
 
 .upBtn:hover {
@@ -36,6 +38,7 @@
 .save {
   margin-right: 0.5rem;
   border-radius: 6px;
+  padding: 0.1rem 0.4rem 0.2rem 0.4rem;
 }
 
 .comments:hover,
@@ -43,22 +46,4 @@
 .save:hover {
   background-color: #e8e8e8;
   cursor: pointer;
-}
-
-/* Desktop Responsiveness */
-@media only screen and (min-width: 760px) {
-  .upvotes {
-    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
-  }
-
-  .comments,
-  .share,
-  .save {
-    padding: 0.1rem 0.5rem 0.2rem 0.5rem;
-  }
-
-  .upBtn,
-  .downBtn {
-    padding: 0.2rem 0.1rem;
-  }
 }
