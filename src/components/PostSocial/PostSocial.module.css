@@ -8,12 +8,16 @@
 .upvoteContainer {
   display: flex;
   flex-direction: row;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+}
+
+.upvotes {
+  color: #222;
 }
 
 .upBtn,
 .downBtn {
-  width: 21px;
+  height: 21px;
   border-radius: 6px;
 }
 
@@ -45,7 +49,6 @@
 @media only screen and (min-width: 760px) {
   .upvotes {
     padding: 0.1rem 0.3rem 0.1rem 0.3rem;
-    color: #222;
   }
 
   .comments,
@@ -56,6 +59,6 @@
 
   .upBtn,
   .downBtn {
-    padding: 0.1rem 0.2rem;
+    padding: 0.2rem 0.1rem;
   }
 }
